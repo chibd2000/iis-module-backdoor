@@ -1,9 +1,12 @@
 #pragma once
 #define _WINSOCKAPI_
-
-class CMyHttpModule :
-	public CHttpModule
+#include "Exploit.h"
+class CMyHttpModule : public CHttpModule
 {
+
+public:
+	Exploit* exp;
+	
 public:
 	CMyHttpModule();
 	~CMyHttpModule();

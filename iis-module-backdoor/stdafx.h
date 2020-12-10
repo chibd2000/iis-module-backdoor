@@ -16,5 +16,11 @@
 #include <sal.h>
 #include <httpserv.h>
 
+// 字符串流
+#include <iostream>
+#include <string>
+
+using namespace std;
+
 
 // TODO:  在此处引用程序需要的其他头文件
